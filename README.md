@@ -5,4 +5,14 @@ I have trained a CNN model for training the CIFAR 10 dataset. I used ResNet 18 b
 
 # The epoch value was set to 20. AND applying these constraints I achieved the overall train accuracy of    and overall test accuracy of    . A visualization on epochs vs accuracy and epochs vs loss is also shown.
 
+Preview : The resnet model (Residual network) model is a pretrained deep learning CNN architecture that is utilized for the task of image recogniton. Originally the ReSNet architecture was introduced in
+          2015 through the paper 'Deep Residual Learning for Image Recognition'. It was developed to counter a very common problem named 'Vanishing Gradient'. 
+
+Vanishing gradient problem : Since deep learning models are built on deep neural networks. So when optimizers were applied to fetch the new value of the weights, 
+                            the gradients were so low that the visible change in the weights was almost none. Thus due to this problem the deep NNs surprisingly 
+                            would give poor results than shallower models. The first clue for the vanishing gradient problem was that 'The model was not overfitting
+                            in training'. 
+
+The fix by ResNET : 
+
 
