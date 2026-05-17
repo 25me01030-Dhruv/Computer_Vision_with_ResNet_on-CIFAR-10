@@ -9,8 +9,7 @@ The batch size is 200 applied with the Stochastic Gradient Descent (SGD) AND the
 AND applying these constraints I achieved the overall train accuracy of    and overall test accuracy of    . 
 A visualization on epochs vs accuracy and epochs vs loss is also shown.
 
-# Preview : The resnet model (Residual network) model is a pretrained deep learning CNN architecture that is utilized for the task of image recogniton. Originally    the ReSNet architecture was introduced in 2015 through the paper 'Deep Residual Learning for Image Recognition'. It was developed to counter a very 
-   common problem named 'Vanishing Gradient'. 
+# Preview : The resnet model (Residual network) model is a pretrained deep learning CNN architecture that is utilized for the task of image recogniton. Originally    the ReSNet architecture was introduced in 2015 through the paper 'Deep Residual Learning for Image Recognition'. It was developed to counter a very common problem named 'Vanishing Gradient'. 
 
 Vanishing gradient problem : Since deep learning models are built on deep neural networks. So when optimizers were applied to fetch the new value of the weights, 
                             the gradients were so low that the visible change in the weights was almost none. Thus due to this problem the deep NNs surprisingly 
