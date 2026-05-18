@@ -19,6 +19,6 @@ Vanishing gradient problem : Since deep learning models are built on deep neural
 
 The fix by ResNET : ResNet introduced the concept of skip connections. A residue term variable X was added to F(X) by passing the value directly by skipping the CNN                      layers and the final result was H(X) = F(X) + X. Thus due to this residue term X the gradient could never to significantly small to be neglible.
 
-The ResNet model thus became more successful in image recognition problems than VGGNET, Alexnet and plain networks. IN ImageNet dataset the resnet model could achieve much more deep neural networks than other models with no degradation problem and even with lesser FLOPS than other architectures.
+The ResNet model thus became more successful in image recognition problems than VGGNET, Alexnet and plain networks. In ImageNet dataset the resnet model could achieve much more deep neural networks than other models with no degradation problem and even with lesser FLOPS than other architectures.
 
 
